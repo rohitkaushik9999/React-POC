@@ -1,0 +1,75 @@
+.form-control {
+  margin: 0.5rem 0;
+  text-align: left;
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+  width: 20%;
+}
+
+.form-control input {
+  border: 1px solid #ccc;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0 0.25rem;
+  width: 40%;
+}
+
+.form-control button {
+ background-color: black;
+ color: white;
+}
+
+.form-control input:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
+
+.goal-item {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.goal-item input {
+  margin-right: 16px;
+}
+
+.goal-item button {
+  margin-left: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.goal-item p {
+  width: 100%;
+  text-align: left;
+}
+
+
+.form-group {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.form-group input{
+  width: 100%;
+  text-align: left;
+}
+
+.listing-content {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Todo-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
